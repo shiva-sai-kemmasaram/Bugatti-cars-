@@ -1,0 +1,175 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Brush script MT", cursive;
+    font-weight: 400;
+  }
+html {
+  
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #3c4333;
+  padding-right: 3rem;
+} */
+
+/* .container{
+    text-align: center;
+    color: aliceblue;
+    align-items: center;
+    padding-right: 3rem;
+    text-align: left;
+
+    
+}
+.card-img{
+    border-radius: 15rem;
+    width: 60%;
+    height: auto;
+    display:inherit;
+    box-shadow: aqua;
+    align-items: center;
+
+    margin: 3rem;
+   
+    padding: 1rem;
+    
+    position: relative;
+    transition: box-shadow 0.5s;
+  }
+  
+  .card-img:hover {
+    box-shadow: 0.8rem 0.8rem 0.8rem #76ebdf;
+  } */
+  /* .wrapper {
+    width: 100%;
+    perspective: 50rem;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 50rem;
+    margin: 0 3rem;
+    background-color: #070707;
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
+    position: relative;
+    transition: box-shadow 0.5s;
+  }
+  
+  .card:hover {
+    box-shadow: 0.8rem 0.8rem 0.8rem #76ebdf;
+  }
+  
+  .car-name {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 10;
+  }
+  
+  .card-img {
+    width: 100%;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+  }
+  
+  .card:hover .card-img .contact-form {
+    opacity: 1;
+  }
+  
+  .car-price {
+    font-size: 1.8rem;
+    color: #fefefe;
+    margin: 0.5rem 0;
+  }
+  
+  .card-btn {
+    width: 100%;
+    background-color: #fff;
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: #151212;
+    text-shadow: 0.1rem 0.1rem 0.3rem #000;
+    box-shadow: 0.1rem 0.1rem 0.5rem #090a0a;
+    cursor: pointer;
+  } */
+  * {
+    margin: 1.2rem;
+    padding: 0;
+    /* outline: none; */
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: "Brush script MT", cursive; */
+    font-weight: 400;
+  }
+html {
+  
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #97ecf9;
+  padding-right: 3rem;
+}
+
+.container{
+    text-align: center;
+    color: #000000;
+    align-items: center;
+    padding-right: 3rem;
+    text-align: left;
+    margin-left-top:3rem;
+    
+}
+.card-img{
+    border-radius: 15rem;
+    width: 90%;
+    height: auto;
+    display:block;
+    /* box-shadow: aqua; */
+    align-items: center;
+    margin-left-top:3rem;
+    margin: 3rem;
+   
+    padding: 1rem;
+    
+    position: relative;
+    transition: box-shadow 0.5s;
+  }
+  
+  .card-img:hover {
+    box-shadow: 0.8rem 0.8rem 0.8rem #000000;
+  }
+  .card {
+    width: 50rem;
+    margin: 0 3rem;
+    background-color: #070707;
+    padding: 1rem;
+    /* box-shadow: 0.1rem 0.1rem 0.1rem #000000; */
+    position: relative;
+    transition: box-shadow 0.5s;
+    margin-bottom: 20px;
+  }
+  .accordion{
+    width: 100%;
+  }
+ 

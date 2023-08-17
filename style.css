@@ -69,6 +69,7 @@ body {
   height: 100vh;
   background-color: #000000;
   position: fixed;
+  
   top: 0;
   left: -15vw;
   display: flex;
@@ -148,7 +149,14 @@ section.change {
 
 .section-1-img {
   width: 70%;
+  border-radius: 15px;
 }
+  .section-1-img:hover {
+    box-shadow: 0.8rem 0.8rem 0.8rem  #76ebdf;
+     transition: box-shadow 0.5s;
+  }
+
+
 /* End of Section-1 */
 
 /* Section 2 */
