@@ -44,5 +44,13 @@ videos.forEach((video) => {
 //   message => alert("you want to send")
 // );
 // } 
+function sendFormEmail(e) {
+  var name = e.values[1];
+  var email = e.values[2];
+  var message = e.values[3];
+  var subject = "New Form Submission";
+  var body = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
+  MailApp.sendEmail("shivarockingshiva@gmail.com", subject, body);
+}
 
 

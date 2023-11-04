@@ -139,6 +139,7 @@ section.change {
   flex-direction: column;
   background: url(images/bg-section1.jpg) center no-repeat;
   background-size: cover;
+  
 }
 
 .section-1 .section-1-heading {
@@ -148,8 +149,9 @@ section.change {
 }
 
 .section-1-img {
-  width: 70%;
+  width: 30%;
   border-radius: 15px;
+ 
 }
   .section-1-img:hover {
     box-shadow: 0.8rem 0.8rem 0.8rem  #76ebdf;
